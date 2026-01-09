@@ -146,7 +146,7 @@ nav .btn{
     align-items: center;          
     gap: 60px; 
     padding-top: 120px;                   
-    padding-left: 600px;
+    padding-left: 570px;
 }
 
 .image img {
@@ -167,10 +167,9 @@ nav .btn{
     line-height: 1.6;
 }
 
-/* Checkbox + text alignment */
 .check-item {
     display: flex;
-    align-items: center;          /* centers icon & text vertically */
+    align-items: center;         
     gap: 12px;
     margin-bottom: 14px;
 }
@@ -179,6 +178,171 @@ nav .btn{
     width: 22px;
     height: 22px;
 }
+/* more section */
+
+#more {
+    background: #F7F6F2;
+    padding: 80px 20px;
+    color: black;
+    margin-left: 570px;
+    margin-right: 550px;
+    margin-top: 120px;
+}
+
+
+.more-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.more-container > div {
+    padding: 12px 16px;
+}
+
+
+.more-heading h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.more-heading p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+
+.more-button {
+    padding: 20px;
+}
+
+
+.more-button button {
+    background-color: #ffffff;
+    color: #4f46e5;
+    font-size: 1rem;
+    font-weight: 600;
+
+    padding: 14px 28px;
+    border: none;
+    border-radius: 999px;
+
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.more-button button::after {
+    content: "→";
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.more-button button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+}
+
+.more-button button:hover::after {
+    transform: translateX(4px);
+}
+
+.more-container p:last-child {
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+/* fotter design */
+/* Footer container */
+#fotter {
+    background-color: #1a1a1a; /* dark background */
+    color: #fff; /* white text */
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+/* Inner footer container */
+.fotter-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer logo */
+.footer-image img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+/* Social links heading */
+.footer-social p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Social icons container */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* spacing between icons */
+    margin-bottom: 25px;
+}
+
+/* Social icon links */
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+/* Individual social colors */
+.social-icon.x {
+    background-color: #1da1f2; /* X/Twitter blue */
+}
+
+.social-icon.linkedin {
+    background-color: #0077b5; /* LinkedIn blue */
+}
+
+.social-icon.facebook {
+    background-color: #1877f2; /* Facebook blue */
+}
+
+/* Hover effects */
+.social-icon:hover {
+    transform: scale(1.2);
+    opacity: 0.85;
+}
+
+/* Copyright text */
+.copywright p {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 20px;
+}
+
+
 
 
 
