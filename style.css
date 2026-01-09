@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-inter> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  }
+header {
+    background-color: #e9ecee;
+    padding-top: 16px 120px;
+    
+    
+}
+nav{
+    background-color: #ffffff;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-container img{
+    margin-left: 120px;    
+    margin-top: 16px;
+
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+
+}
+
+nav .menu a{
+    text-decoration: none;
+}
+nav .btn{
+    margin-right: 120px;
+}
+.btn button {
+    background-color: #30b868; /* Indigo */
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.btn button:hover {
+    background-color: #4338ca;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
+}
+
+/* Active (click) effect */
+.btn button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(79, 70, 229, 0.2);
+}
+.hero-container{
+    background-image: url("assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 674px;
+    padding: 115px 120px 179px 120px;
+    text-align: center;    
+}
+.hero-container-big-heading{
+    padding-top: 16px;
+    font-size: 72px;color: white;
+    font-weight: bold;
+}
+.hero-container-para{
+    font-size: 18px;color: white;
+    line-height: 24px;    
+}
+.hero-button{
+    padding-top: 32px;
+    gap: ;
+}
+.midle-para{
+    text-align: center;
+    padding-top: 25px;
+    /* font-weight: bold; */
+    line-height: 50px;
+}
+
+.skill-card img{
+    background-color: #F95555;   
+    border-radius: 50%;          
+    padding: 12px;              
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+.skill-card {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 260px;
+    height: 300px;
+    padding-top: 70px;
+    padding-left: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 48px;
+    margin-bottom: 16px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+#solution {
+    display: flex;
+    align-items: center;          
+    gap: 60px; 
+    padding-top: 120px;                   
+    padding-left: 600px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.solution-info {
+    max-width: 550px;
+}
+
+.solution-info h1 {
+    margin: 16px 0;
+}
+
+.solution-info .description {
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+
+/* Checkbox + text alignment */
+.check-item {
+    display: flex;
+    align-items: center;          /* centers icon & text vertically */
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.check-item img {
+    width: 22px;
+    height: 22px;
+}
+
+
+
+
+
+
+    
+
+
