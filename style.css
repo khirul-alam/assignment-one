@@ -145,7 +145,7 @@ nav .btn{
     display: flex;
     align-items: center;          
     gap: 60px; 
-    padding-top: 120px;                   
+    padding-top: 220px;                   
     padding-left: 100px;
 }
 
@@ -184,7 +184,7 @@ nav .btn{
     background: #F7F6F2;
     padding: 80px 20px;
     color: black;
-    margin-left: 100px;
+    margin-left: 220px;
     margin-right: 550px;
     margin-top: 120px;
 }
